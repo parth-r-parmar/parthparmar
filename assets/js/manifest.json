@@ -1,5 +1,5 @@
 {
-    "short_name": "Parth",
+    "short_name": "Parth Parmar",
     "name": "Parth Parmar",
     "icons": [
       {
@@ -18,7 +18,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "../../index.html",
     "background_color": "#100e17",
     "display": "fullscreen",
     "display_override": ["window-control-overlay","fullscreen", "minimal-ui"],
