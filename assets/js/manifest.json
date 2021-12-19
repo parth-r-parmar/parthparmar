@@ -1,0 +1,28 @@
+{
+    "short_name": "Parth",
+    "name": "Parth Parmar",
+    "icons": [
+      {
+        "src": "../images/hero.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      },
+      {
+        "src": "../images/hero.jpg",
+        "type": "image/jpg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../images/hero.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#100e17",
+    "display": "fullscreen",
+    "display_override": ["window-control-overlay","fullscreen", "minimal-ui"],
+    "scope": "/",
+    "theme_color": "#100e17",
+    "description": "Personal Portfolio : Parth Parmar"
+  }
