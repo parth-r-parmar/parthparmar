@@ -1,24 +1,24 @@
 {
-    "short_name": "Parth",
+    "short_name": "Parth Parmar",
     "name": "Parth Parmar",
     "icons": [
       {
-        "src": "../images/hero.jpg",
-        "type": "image/jpg",
-        "sizes": "512x512"
+        "src": "../images/manifest128.png",
+        "type": "image/png",
+        "sizes": "128x128"
       },
       {
-        "src": "../images/hero.jpg",
-        "type": "image/jpg",
+        "src": "../images/manifest192.png",
+        "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "../images/hero.jpg",
-        "type": "image/jpg",
+        "src": "../images/manifest512.png",
+        "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "../../index.html",
     "background_color": "#100e17",
     "display": "fullscreen",
     "display_override": ["window-control-overlay","fullscreen", "minimal-ui"],
