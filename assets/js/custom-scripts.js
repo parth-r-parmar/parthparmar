@@ -5,21 +5,6 @@
     return this.addBack.apply(this, arguments);
   };
 
-  /* =================================
-===  EXPAND COLLAPSE            ====
-=================================== */
-  $(document).ready(function () {
-    $("#toggle-switcher").click(function () {
-      if ($(this).hasClass("open")) {
-        $(this).removeClass("open");
-        $("#navbarSupportedContent").animate({ left: "-100%" });
-      } else {
-        $(this).addClass("open");
-        $("#navbarSupportedContent").animate({ left: "0" });
-      }
-    });
-  });
-
   /* Loader Code Start */
   $(window).on("load", function () {
     $(".section-loader").fadeOut("slow");
