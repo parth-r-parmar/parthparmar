@@ -64,7 +64,7 @@
     /*  Navigation Menu */
   }
   .mh-xs-mobile-nav .nav-btn .navbar-toggler.active {
-    display: none;
+    margin-left: 84%;
   }
   .mh-xs-mobile-nav .navbar-nav {
     padding-top: 50px;
