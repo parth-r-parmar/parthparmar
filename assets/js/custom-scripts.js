@@ -17,7 +17,7 @@
     |=====================
     */
 
-  var overlay = $(".overlay"),
+  const overlay = $(".overlay"),
     navbarSupportedContent = $("#navbarSupportedContent"),
     toggleSwitch = $("#toggle-switcher");
 
@@ -34,6 +34,25 @@
       $(".navbar-toggler").addClass("active");
     }
   });
+
+
+$("body").swiperight(function() {
+    if (navbarSupportedContent.hasClass("active")) return;
+    overlay.addClass("active");
+    toggleSwitch.removeClass("open");
+    navbarSupportedContent.addClass("active");
+    $(".navbar-toggler").addClass("active");
+});
+
+$("body").swipeleft(function() {
+    if (navbarSupportedContent.hasClass("active")) {
+       overlay.addClass("active");
+       toggleSwitch.removeClass("open");
+       navbarSupportedContent.addClass("active");
+       $(".navbar-toggler").addClass("active");
+    }
+});
+
 
   /*
     |=================
