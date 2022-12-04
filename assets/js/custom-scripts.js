@@ -17,7 +17,13 @@
     |=====================
     */
 
-  const overlay = $(".overlay"),
+  
+
+
+
+
+$(document).on("pageinit", function(){   
+const overlay = $(".overlay"),
     navbarSupportedContent = $("#navbarSupportedContent"),
     toggleSwitch = $("#toggle-switcher");
 
@@ -36,9 +42,6 @@
   });
 
 
-
-
-$(document).on("pageinit", "#navbarSupportedContent", function(){   
     $('#navbarSupportedContent').on( "swipeleft", function( event ){
         if (navbarSupportedContent.hasClass("active")) {
        overlay.addClass("active");
