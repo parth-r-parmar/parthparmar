@@ -44,7 +44,7 @@ $("body").swiperight(function() {
     $(".navbar-toggler").addClass("active");
 });
 
-navbarSupportedContent.swipeleft(function() {
+$("body").swiperleft(function() {
     if (navbarSupportedContent.hasClass("active")) {
        overlay.addClass("active");
        toggleSwitch.removeClass("open");
