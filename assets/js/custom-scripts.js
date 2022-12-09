@@ -18,6 +18,7 @@
     */
 
   $(document).on("pageinit", function () {
+    $(".ui-loader").addClass("d-none");
     const overlay = $(".overlay"),
       navbarSupportedContent = $("#navbarSupportedContent"),
       toggleSwitch = $("#toggle-switcher");
@@ -93,7 +94,7 @@
     | NAV FIXED ON SCROLL
     | ==========================
     */
-  $(window).on("scroll", function () {
+  $(document).on("scroll", function () {
     var scroll = $(window).scrollTop();
     if (scroll >= 50) {
       $(".nav-scroll").addClass("nav-strict");
