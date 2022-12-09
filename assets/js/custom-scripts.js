@@ -40,12 +40,11 @@
     $("body, #navbarSupportedContent, #mh-header .container").on(
       "swipeleft",
       function (event) {
-        alert("left")
         if (navbarSupportedContent.hasClass("active")) {
-          overlay.addClass("active");
+          overlay.removeClass("active");
           toggleSwitch.removeClass("open");
-          navbarSupportedContent.addClass("active");
-          $(".navbar-toggler").addClass("active");
+          navbarSupportedContent.removeClass("active");
+          $(".navbar-toggler").removeClass("active");
         }
       }
     );
