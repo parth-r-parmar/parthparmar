@@ -37,18 +37,14 @@
       }
     });
 
-    $("body, #navbarSupportedContent, #mh-header .container").on(
-      "swipeleft",
-      function (event) {
-        if (navbarSupportedContent.hasClass("active")) {
-          overlay.removeClass("active");
-          toggleSwitch.removeClass("open");
-          navbarSupportedContent.removeClass("active");
-          $(".navbar-toggler").removeClass("active");
-        }
+    $("body").swipeleft(function () {
+      if (navbarSupportedContent.hasClass("active")) {
+        overlay.removeClass("active");
+        toggleSwitch.removeClass("open");
+        navbarSupportedContent.removeClass("active");
+        $(".navbar-toggler").removeClass("active");
       }
-    );
-
+    });
     $("body").swiperight(function () {
       if (navbarSupportedContent.hasClass("active")) return;
       overlay.addClass("active");
