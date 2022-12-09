@@ -2305,9 +2305,11 @@ body {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 3;
+  transition : 0.5s all;
 }
 .old .overlay.active {
   display: block;
+  transition :0.5s all;
 }
 .old .navbar-collapse {
   position: fixed;
