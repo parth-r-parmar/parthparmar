@@ -37,9 +37,10 @@
       }
     });
 
-    $("#navbarSupportedContent, #mh-header .container").on(
+    $("body, #navbarSupportedContent, #mh-header .container").on(
       "swipeleft",
       function (event) {
+        alert("left")
         if (navbarSupportedContent.hasClass("active")) {
           overlay.addClass("active");
           toggleSwitch.removeClass("open");
