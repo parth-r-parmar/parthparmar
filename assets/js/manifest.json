@@ -1,28 +1,46 @@
 {
-    "short_name": "Parth Parmar",
-    "name": "Parth Parmar",
-    "icons": [
-      {
-        "src": "../images/manifest128.png",
-        "type": "image/png",
-        "sizes": "128x128"
-      },
-      {
-        "src": "../images/manifest192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "../images/manifest512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "../../index.html",
-    "background_color": "#100e17",
-    "display": "fullscreen",
-    "display_override": ["window-control-overlay","fullscreen", "minimal-ui"],
-    "scope": "/",
-    "theme_color": "#100e17",
-    "description": "Personal Portfolio : Parth Parmar"
-  }
+  "short_name": "Parth Parmar",
+  "name": "Parth Parmar",
+  "icons": [
+    {
+      "src": "../images/icons/manifest128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "../images/icons/manifest192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../images/icons/manifest512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "../images/icons/manifest128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../images/icons/manifest192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../images/icons/manifest512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "../../index.html",
+  "background_color": "#100e17",
+  "display": "fullscreen",
+  "display_override": ["window-control-overlay", "fullscreen", "minimal-ui"],
+  "scope": "/",
+  "theme_color": "#100e17",
+  "description": "Personal Portfolio : Parth Parmar"
+}
