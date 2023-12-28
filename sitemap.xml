@@ -4,15 +4,17 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-  <loc>https://parmarparth.me/</loc>
-  <lastmod>2023-07-05T05:22:30+00:00</lastmod>
+  <loc>https://parthparmar.netlify.app/</loc>
+  <lastmod>2023-12-28T11:37:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://parmarparth.me/Parth%20Parmar.pdf</loc>
-  <lastmod>2023-07-05T05:22:30+00:00</lastmod>
+  <loc>https://parthparmar.netlify.app/Parth%20Parmar.pdf</loc>
+  <lastmod>2023-12-28T11:37:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
