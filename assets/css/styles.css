@@ -116,7 +116,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0bceaf;
+  background-color: #003fd4;
   border-radius: 20px;
 }
 
@@ -241,7 +241,7 @@ a:focus {
   width: 14px;
 }
 .btn.btn-fill {
-  background-color: #0bceaf;
+  background-color: #003fd4;
   color: #fff;
 }
 .btn.left-icon .icon {
@@ -448,7 +448,7 @@ h6 {
   opacity: 0.9;
 }
 .dark-vertion.black-bg {
-  background-color: rgb(15 23 42/1);
+  background-color: #0f172a;
 }
 .dark-vertion .section-loader {
   background: #100e17;
@@ -643,7 +643,7 @@ body {
   padding-right: 0;
 }
 .mh-header .navbar-nav li a:hover {
-  color: #0bceaf;
+  color: #003fd4;
 }
 
 .home-padding {
@@ -672,6 +672,7 @@ body {
 .mh-home .half:first-child .mh-header-info {
   flex-grow: 1;
 }
+
 .mh-home .half:last-child {
   height: 100vh;
   width: 100%;
@@ -679,11 +680,13 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 .mh-home .half:last-child section {
   padding: 20px;
   height: 100%;
   scroll-snap-align: start;
 }
+
 .mh-about {
   height: 100vh;
   display: flex;
@@ -695,7 +698,7 @@ body {
   margin-bottom: 30px;
 }
 .mh-home .mh-header-info .mh-promo span {
-  background-color: #0bceaf;
+  background-color: #003fd4;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -791,7 +794,7 @@ body {
   display: inline-block;
 }
 .mh-about-tag ul li span {
-  border: 1px solid #0bceaf;
+  border: 1px solid #003fd4;
   padding: 4px 10px;
   border-radius: 4px;
 }
@@ -864,7 +867,7 @@ body {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: #0bceaf;
+  background: #003fd4;
   -webkit-transition: 3s all;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: animationProgress;
@@ -916,11 +919,11 @@ body {
 .mh-experince .mh-education-deatils .mh-education-item h4 a {
   font-style: italic;
   margin-left: 4px;
-  color: #0bceaf;
+  color: #003fd4;
 }
 .mh-experince .mh-education-deatils .mh-education-item .mh-eduyear {
   margin: 10px 0;
-  color: #0bceaf;
+  color: #003fd4;
 }
 .mh-experince .mh-education-deatils .mh-education-item p {
   font-size: 14px;
@@ -965,12 +968,12 @@ body {
   font-weight: 600;
 }
 .mh-work .mh-experience-deatils .mh-work-item h4 a {
-  color: #0bceaf;
+  color: #003fd4;
   font-style: italic;
 }
 .mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
   margin: 10px 0;
-  color: #0bceaf;
+  color: #003fd4;
 }
 .mh-work .mh-experience-deatils .mh-work-item span {
   font-size: 12px;
@@ -1027,7 +1030,7 @@ body {
   border-radius: 50%;
   line-height: 100px;
   font-size: 20px;
-  border-color: #0bceaf;
+  border-color: #003fd4;
 }
 
 /*

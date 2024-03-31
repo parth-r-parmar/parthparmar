@@ -53,7 +53,7 @@
     z-index: 990;
     margin-top: 0px;
     padding: 0;
-    background-color: #0bceaf;
+    background-color: #003FD4;
     transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg)
       scale(1);
     -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg)
@@ -224,7 +224,7 @@
     box-shadow: unset !important;
   }
   .mh-xs-mobile-nav .navbar-header .navbar-toggler .icon-bar {
-    background-color: #0bceaf;
+    background-color: #003FD4;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
@@ -260,7 +260,7 @@
     z-index: 990;
     margin-top: 0px;
     padding: 0;
-    background-color: #0bceaf;
+    background-color: #003FD4;
     transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg)
       scale(1);
     -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg)
