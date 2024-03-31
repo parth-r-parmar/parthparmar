@@ -99,12 +99,16 @@ body {
   overflow-x: hidden !important;
   text-align: left;
   position: relative;
-  color: #999999;
+  color: #94a3b8;
   background-color: #100e17;
   opacity: 0.9;
   margin: 0;
   height: 100vh;
   width: 100vw;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 ::-webkit-scrollbar {
@@ -453,10 +457,9 @@ h6 {
 .dark-vertion .section-loader {
   background: #100e17;
 }
+
 .dark-vertion a,
-.dark-vertion a:focus {
-  color: #fff !important;
-}
+.dark-vertion a:focus,
 .dark-vertion h2,
 .dark-vertion h3,
 .dark-vertion h4,
@@ -471,8 +474,13 @@ h6 {
 .dark-vertion .h4,
 .dark-vertion .h5,
 .dark-vertion .h6 {
-  color: #fff;
+  color: #94a3b8;
 }
+
+.bright-text {
+  color: #e2e8f0 !important;
+}
+
 .dark-vertion .nav-strict {
   background-color: #202026;
 }
@@ -513,13 +521,6 @@ h6 {
 }
 .dark-vertion .candidatos .parcial .progressBar {
   background: rgba(199, 198, 198, 0.6);
-}
-
-body {
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 /*
@@ -670,7 +671,7 @@ body {
   scroll-snap-align: start;
 }
 .half .mh-header-info {
-  position: absolute;
+  position: fixed;
   top: 0;
   /* z-index: -1; */
   left: 0;
@@ -680,9 +681,24 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  padding-right: 200px;
   height: 100vh;
 }
-@media only screen and (max-width: 420px) {
+.half .mh-header-info .section-inner {
+  padding: 20px;
+  padding-left: 200px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .half section .section-inner {
+    padding: 20px;
+    padding-right: 100px;
+  }
+  .half .mh-header-info .section-inner {
+    padding: 20px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
   .half section {
     width: 100%;
   }
@@ -734,14 +750,15 @@ body {
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  /* color: #94a3b8; */
 }
 
 .mh-home .mh-header-info .social-icon li {
   transition: all 0.2s;
 }
-.mh-home .mh-header-info .social-icon li:hover {
-  transform-origin: center left;
-  transform: scale(1.2);
+.mh-home .mh-header-info .social-icon li:hover .fa-brands,
+.mh-home .mh-header-info .social-icon li:hover .fa {
+  color: #ffffff;
 }
 
 .mh-home .hero-img {
